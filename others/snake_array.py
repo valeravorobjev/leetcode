@@ -22,13 +22,13 @@ def __zmeyka(n, m) -> []:
             items.append(number)
             number += 1
         if i % 2 > 0:
-            reverse(items)
+            __reverse(items)
         matrix.append(items)
 
     return matrix
 
 
-def reverse(items: []):
+def __reverse(items: []):
     n = len(items) - 1
     a = n // 2
     for i in range(0, a):
