@@ -9,7 +9,7 @@ import easy.two_sum
 # Medium
 
 # validate_stack_sequences.run()
-add_two_sum.run()
+longest_substring.run()
 
 # Others
 # others.snake_array.run()
