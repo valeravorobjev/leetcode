@@ -1,5 +1,16 @@
-import medium.validate_stack_sequences
+from medium import *
 import others.snake_array
+import easy.two_sum
 
-# medium.validate_stack_sequences.run()
-others.snake_array.run()
+# Easy
+
+# easy.two_sum.run()
+
+# Medium
+
+# validate_stack_sequences.run()
+add_two_sum.run()
+
+# Others
+# others.snake_array.run()
+
