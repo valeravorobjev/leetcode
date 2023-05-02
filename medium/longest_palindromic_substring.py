@@ -23,26 +23,21 @@
 # 1 <= s.length <= 1000 s consist of only digits and English letters.
 
 def run():
-    s = "cccc"
+    s = "a"
 
     sub = __longest_palindrome(s)
     print(sub)
 
 
 def __longest_palindrome(s: str) -> str:
-    if len(s) < 2:
-        return s
 
+    size = len(s)
     subs = []
-
-    for i in range(0, len(s)):
-        p = s[i]
-        for j in range(i + 1, len(s)):
-            p = p + s[j]
+    for i in range(0, size):
+        for j in range(0, size):
+            p = s[i:j+1]
             r = p[::-1]
             if p == r:
                 subs.append(p)
 
-    palindromic = max(subs, key=len)
-
-    return palindromic
+    return max(subs, key=len)
