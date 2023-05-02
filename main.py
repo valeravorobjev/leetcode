@@ -11,10 +11,11 @@ import easy.two_sum
 
 # validate_stack_sequences.run()
 # longest_substring.run()
+longest_palindromic_substring.run()
 
 # Hard
 
-median_of_two_arrays.run()
+# median_of_two_arrays.run()
 
 # Others
 # others.snake_array.run()
