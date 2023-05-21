@@ -39,16 +39,16 @@ def __convert(s: str, num_rows: int) -> str:
 
     rows = [""] * num_rows
     index = 1
-    going_up = True
+    up = True
 
     for ch in s:
         rows[index - 1] += ch
         if index == num_rows:
-            going_up = False
+            up = False
         elif index == 1:
-            going_up = True
+            up = True
 
-        if going_up:
+        if up:
             index += 1
         else:
             index -= 1
