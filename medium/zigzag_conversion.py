@@ -29,7 +29,7 @@
 # P     I
 
 def run():
-    result = __convert('AYPALISHIRING', 4)
+    result = __convert('PAYPALISHIRING', 4)
     print(result)
 
 
@@ -37,15 +37,15 @@ def __convert(s: str, num_rows: int) -> str:
     if num_rows == 1:
         return s
 
-    rows = [""] * num_rows
+    rows = [''] * num_rows
     index = 1
     up = True
 
-    for ch in s:
-        rows[index - 1] += ch
+    for char in s:
+        rows[index - 1] += char
         if index == num_rows:
             up = False
-        elif index == 1:
+        if index == 1:
             up = True
 
         if up:
