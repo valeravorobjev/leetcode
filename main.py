@@ -12,7 +12,8 @@ import easy.two_sum
 # validate_stack_sequences.run()
 # longest_substring.run()
 # longest_palindromic_substring.run()
-zigzag_conversion.run()
+# zigzag_conversion.run()
+reverse_integers.run()
 
 # Hard
 
