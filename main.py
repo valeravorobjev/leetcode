@@ -13,7 +13,7 @@ import easy.two_sum
 # longest_substring.run()
 # longest_palindromic_substring.run()
 # zigzag_conversion.run()
-reverse_integers.run()
+string_to_integer.run()
 
 # Hard
 
