@@ -1,7 +1,7 @@
+from easy import *
 from medium import *
 from hard import *
 import others.snake_array
-import easy.two_sum
 
 # Easy
 
@@ -13,7 +13,8 @@ import easy.two_sum
 # longest_substring.run()
 # longest_palindromic_substring.run()
 # zigzag_conversion.run()
-string_to_integer.run()
+# string_to_integer.run()
+palindrome_number.run()
 
 # Hard
 
